@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Sauce Demo Test" parallel="classes">
+
+    <test name="Login Test" >
+        <classes>
+            <class name="MonolitSauceDemo.SauceDemoLoginTest">
+                <methods>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Order Test">
+        <classes>
+            <class name="MonolitSauceDemo.SauceDemoOrderTest">
+                <methods>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
